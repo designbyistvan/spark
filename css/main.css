@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #fd008f;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+p, a {
+    font-size: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header_cta, .arrow {
+    display: none;
+}
