@@ -10,4 +10,4 @@ This landing page project was developed as a personal project to practice web de
 
 Contact Us
 
-If you have any questions, feedback, or inquiries about the Spark landing page or the Spark application itself, please don't hesitate to contact us at designbyistvan@gmail.com. We value your input and look forward to hearing from you!
+If you have any questions, feedback, or inquiries about the Spark landing page or the Spark application itself, please don't hesitate to contact me at designbyistvan@gmail.com. I value your input and look forward to hearing from you!
