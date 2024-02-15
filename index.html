@@ -1,143 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>spark</title>
-    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/heroSection.css">
+    <link rel="stylesheet" href="./css/featuresSection.css">
+    <link rel="stylesheet" href="./css/testimonialSection.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
 </head>
 <body>
     
-    <header>
-        <div class="wrapper navbar">
+    <header id="navbar">
+
+        <div class="navbar">
+
             <a href="#" class="logo">spark</a>
+
             <nav>
+                
                 <ul>
-                    <li><a href="#" class="active">home</a></li>
-                    <li><a href="#" class="active">features</a></li>
-                    <li><a href="#" class="active">pricing</a></li>
+                    
+                    <li><a id="link1" class="active" href="#">home</a></li>
+
+                    <li><a id="link2" href="#features">features</a></li>
+                    
+                    <li><a id="link3" href="#testimonial">testimonial</a></li>
+
                 </ul>
+
             </nav>
+
             <a href="#" class="header_cta">download spark</a>
+
         </div>
+
     </header>
 
-    <section class="hero">
-        <div class="wrapper">
-            <div class="left-col">
+    <section id="hero">
+
+        <div class="hero">
+
+            <div class="leftCol">
+
                 <h1>Boost Your Productivity with Spark.</h1>
-                <p class="subhead">Experience seamless organization, efficient task management, and enhanced productivity.</p>
-                <div class="cta-btns">
-                    <a href="#" class="appstore"><img src="assets/appleStore.svg" alt="Apple Store"></a>
-                </div>
+                <p>Experience seamless organization, efficient task management, and enhanced productivity.</p>
+                <a href=""><img src="./assets//appleStore.svg" alt="Apple Store"></a>
+
             </div>
-            <div class="right-col">
-                <img src="assets/productivityIllustration.png" alt="Productivity Illustration" class="phone" width="30%">
+
+            <div class="rightCol">
+
+                <img src="./assets/productivityIllustration.png" alt="Productivity Illustration">
+
             </div>
+
         </div>
+
     </section>
 
-    <section class="features">
-        <div class="wrapper">
+    <section id="features">
+
+        <div class="features">
+
             <ul>
+
                 <li>
+                    
                     <strong>
-                        <svg width="71" height="62" viewBox="0 0 71 62" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0V61.9326H61.9326V30.17L53.0851 39.0175V53.0851H8.84751V8.84751H40.6101L49.4576 0H0ZM61.9326 0L35.39 26.5425L26.5425 17.695L17.695 26.5425L35.39 44.2376L70.7801 8.84751L61.9326 0Z" fill="#262729"/>
-                        </svg>
-                        <span>Secure</span>
+                        
+                        <svg viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 18H2V7H16M16 2H15V0H13V2H5V0H3V2H2C0.89 2 0 2.9 0 4V18C0 18.5304 0.210714 19.0391 0.585786 19.4142C0.960859 19.7893 1.46957 20 2 20H16C16.5304 20 17.0391 19.7893 17.4142 19.4142C17.7893 19.0391 18 18.5304 18 18V4C18 3.46957 17.7893 2.96086 17.4142 2.58579C17.0391 2.21071 16.5304 2 16 2ZM13.53 10.06L12.47 9L7.59 13.88L5.47 11.76L4.41 12.82L7.59 16L13.53 10.06Z" fill="white"/>
+                        </svg>  
+
+                        <span>Task Management</span>
+
                     </strong>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, esse ad reiciendis rem accusantium odio tempore ex at voluptatibus error.</p>
+
+                    <p>Easily organize your tasks and to-dos with Spark's intuitive task management system. Create, categorize, and prioritize tasks to stay on top of your workload and boost your productivity.</p>
+                
                 </li>
+
                 <li>
+                    
                     <strong>
-                        <svg width="71" height="62" viewBox="0 0 71 62" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0V61.9326H61.9326V30.17L53.0851 39.0175V53.0851H8.84751V8.84751H40.6101L49.4576 0H0ZM61.9326 0L35.39 26.5425L26.5425 17.695L17.695 26.5425L35.39 44.2376L70.7801 8.84751L61.9326 0Z" fill="#262729"/>
-                        </svg>
-                        <span>Secure</span>
+                        
+                        <svg viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 18H2V7H16M13 0V2H5V0H3V2H2C0.89 2 0 2.89 0 4V18C0 18.5304 0.210714 19.0391 0.585786 19.4142C0.960859 19.7893 1.46957 20 2 20H16C16.5304 20 17.0391 19.7893 17.4142 19.4142C17.7893 19.0391 18 18.5304 18 18V4C18 2.89 17.1 2 16 2H15V0" fill="white"/>
+                        </svg>  
+
+                        <span>Calendar Integration</span>
                     </strong>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, esse ad reiciendis rem accusantium odio tempore ex at voluptatibus error.</p>
+
+                    <p>Seamlessly sync Spark with your favorite calendar apps such as Google Calendar or Outlook. Consolidate your tasks and events in one place to effectively plan your day and manage your time efficiently.</p>
+                
                 </li>
+
                 <li>
+                    
                     <strong>
-                        <svg width="71" height="62" viewBox="0 0 71 62" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0V61.9326H61.9326V30.17L53.0851 39.0175V53.0851H8.84751V8.84751H40.6101L49.4576 0H0ZM61.9326 0L35.39 26.5425L26.5425 17.695L17.695 26.5425L35.39 44.2376L70.7801 8.84751L61.9326 0Z" fill="#262729"/>
-                        </svg>
-                        <span>Secure</span>
+                        
+                        <svg viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 13V15H0V13C0 13 0 8.99999 7 8.99999C14 8.99999 14 13 14 13ZM10.5 3.49999C10.5 2.80776 10.2947 2.13107 9.91014 1.5555C9.52556 0.979924 8.97893 0.53132 8.33939 0.266413C7.69985 0.00150663 6.99612 -0.067805 6.31718 0.0672432C5.63825 0.202291 5.01461 0.535634 4.52513 1.02512C4.03564 1.5146 3.7023 2.13824 3.56725 2.81718C3.4322 3.49611 3.50152 4.19984 3.76642 4.83938C4.03133 5.47892 4.47993 6.02555 5.0555 6.41014C5.63108 6.79472 6.30777 6.99999 7 6.99999C7.92826 6.99999 8.8185 6.63124 9.47487 5.97486C10.1313 5.31849 10.5 4.42825 10.5 3.49999ZM13.94 8.99999C14.5547 9.47574 15.0578 10.0804 15.4137 10.7715C15.7696 11.4626 15.9697 12.2232 16 13V15H20V13C20 13 20 9.36999 13.94 8.99999ZM13 -8.45615e-06C12.3117 -0.00384117 11.6385 0.201947 11.07 0.589992C11.6774 1.43873 12.0041 2.45628 12.0041 3.49999C12.0041 4.54371 11.6774 5.56125 11.07 6.40999C11.6385 6.79804 12.3117 7.00382 13 6.99999C13.9283 6.99999 14.8185 6.63124 15.4749 5.97486C16.1313 5.31849 16.5 4.42825 16.5 3.49999C16.5 2.57173 16.1313 1.6815 15.4749 1.02512C14.8185 0.368741 13.9283 -8.45615e-06 13 -8.45615e-06Z" fill="white"/>
+                        </svg>  
+
+                        <span>Collaboration Tools</span>
+
                     </strong>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, esse ad reiciendis rem accusantium odio tempore ex at voluptatibus error.</p>
+
+                    <p>Streamline teamwork and project management with Spark's collaboration tools. Easily share tasks and projects with your team members, assign responsibilities, track progress, and communicate effectively to achieve your goals together.</p>
+                
                 </li>
+
             </ul>
+
         </div>
+
     </section>
 
-    <div class="wrapper">
-        <section class="testimonial">
-            <div class="testimonial-quote">
+    <section id="testimonial">
+
+        <div class="testimonial">
+
+            <div class="testimonialQuote">
+
                 <h2>See What Our Users Are Saying</h2>
-                <p>"Spark has transformed the way I manage my tasks. Highly recommended!"</p>
+
+                <p>Spark has transformed the way I manage my tasks. Highly recommended!</p>
+
             </div>
-            <div class="testimonial-info">
-                <img src="assets/persona.jpg" alt="Customer Quote" class="author-pic" width="30%">
+
+            <div class="testimonialInfo">
+
+                <img src="assets/persona.jpg" alt="Customer Quote" class="authorPic">
+
                 <div class="author">
-                    <strong>John Doe</strong>
-                    <a href="#">www.google.com</a>
-                    <ul>
+
+                    <div>
+
+                        <strong>John Doe</strong>
+
+                        <a href="#">www.johndoe.com</a>
+
+                    </div>
+
+                    <ul class="socialNav">
+
                         <li>
+                            
                             <a href="#">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <rect width="24" height="24" fill="url(#pattern0)"/>
+                                
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.5" y="1.5" width="21" height="21" rx="6" fill="url(#paint0_radial_1016_146398)"/>
+                                    <rect x="1.5" y="1.5" width="21" height="21" rx="6" fill="url(#paint1_radial_1016_146398)"/>
+                                    <rect x="1.5" y="1.5" width="21" height="21" rx="6" fill="url(#paint2_radial_1016_146398)"/>
+                                    <path d="M17.25 7.875C17.25 8.49632 16.7463 9 16.125 9C15.5037 9 15 8.49632 15 7.875C15 7.25368 15.5037 6.75 16.125 6.75C16.7463 6.75 17.25 7.25368 17.25 7.875Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75ZM12 14.25C13.2426 14.25 14.25 13.2426 14.25 12C14.25 10.7574 13.2426 9.75 12 9.75C10.7574 9.75 9.75 10.7574 9.75 12C9.75 13.2426 10.7574 14.25 12 14.25Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 11.7C4.5 9.17976 4.5 7.91965 4.99047 6.95704C5.4219 6.11031 6.11031 5.4219 6.95704 4.99047C7.91965 4.5 9.17976 4.5 11.7 4.5H12.3C14.8202 4.5 16.0804 4.5 17.043 4.99047C17.8897 5.4219 18.5781 6.11031 19.0095 6.95704C19.5 7.91965 19.5 9.17976 19.5 11.7V12.3C19.5 14.8202 19.5 16.0804 19.0095 17.043C18.5781 17.8897 17.8897 18.5781 17.043 19.0095C16.0804 19.5 14.8202 19.5 12.3 19.5H11.7C9.17976 19.5 7.91965 19.5 6.95704 19.0095C6.11031 18.5781 5.4219 17.8897 4.99047 17.043C4.5 16.0804 4.5 14.8202 4.5 12.3V11.7ZM11.7 6H12.3C13.5849 6 14.4583 6.00117 15.1334 6.05633C15.7911 6.11006 16.1274 6.20745 16.362 6.32698C16.9265 6.6146 17.3854 7.07354 17.673 7.63803C17.7926 7.87263 17.8899 8.20893 17.9437 8.86656C17.9988 9.54169 18 10.4151 18 11.7V12.3C18 13.5849 17.9988 14.4583 17.9437 15.1334C17.8899 15.7911 17.7926 16.1274 17.673 16.362C17.3854 16.9265 16.9265 17.3854 16.362 17.673C16.1274 17.7926 15.7911 17.8899 15.1334 17.9437C14.4583 17.9988 13.5849 18 12.3 18H11.7C10.4151 18 9.54169 17.9988 8.86656 17.9437C8.20893 17.8899 7.87263 17.7926 7.63803 17.673C7.07354 17.3854 6.6146 16.9265 6.32698 16.362C6.20745 16.1274 6.11006 15.7911 6.05633 15.1334C6.00117 14.4583 6 13.5849 6 12.3V11.7C6 10.4151 6.00117 9.54169 6.05633 8.86656C6.11006 8.20893 6.20745 7.87263 6.32698 7.63803C6.6146 7.07354 7.07354 6.6146 7.63803 6.32698C7.87263 6.20745 8.20893 6.11006 8.86656 6.05633C9.54169 6.00117 10.4151 6 11.7 6Z" fill="white"/>
                                     <defs>
-                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                    <use xlink:href="#image0_108_57" transform="scale(0.0416667)"/>
-                                    </pattern>
-                                    <image id="image0_108_57" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACX0lEQVR4nK3UMU7bUBzH8Z+XTpXqqmulpifAnKDO0LWEE8QMSN0STsDzCTBbN5ypU0VuEDN3wDlBwwEqPHR3v3/+uDgQmlLxlT4P6xG/Z9lxIq23h0N8xAs8pRqVpBns+KYIXWfIdNc3vEEqKccY1gybSpBKeoUCR/izgU1MMEMpaYEhUknHiFDJS/V4MQqMUUo6sBMTXGKGTL7AAkOk+rcN9mDrXKCSLz7GMGIoJY0wkNQgwSWGSLV9gxHO0TVEJanFLGL4gSXsg11TlJIG8gULjNCg0npBdxfRIkeQP+g2sgE5grYXw2rQlcpvadcuahSYRAwtcgRtLsYxRhjIW0maI0eDVG6OGlYQ50UMLXIEPSyB3d+BuJ+oYSUYYyVpHzXuF9TboJTr9xJf8BOZfJEPsC6QoJS/K5/xC/0yIWJo8bd2YYudIIbV4Ag1LvFo3QYzlFrvK77jE65xhQJWkL+xr7HAWxyiXyZuY8TQIkfQet18JV/kAKW8KU6wixGOEaFfEPM22SJH0HrdfKWHG2Ty3673yMRCiNAviHmbbJEjaL2VfPFMfs+vUaBBgSskmGMgP+4XtGWDAhPYbRjIr/4VrCUy+UNf4BRT9AvaskGMGrboPir5VTZYyV+sc1whwf2CehucYor7JZjjHexvDSvBCEtkupvvF3S7wUou1eZiBPn/d2DZwpV8vsGmKnGubTDHHuz4uYpxjVNbNJU/qFL+VXyOzjHCbsRgleKtQyn/CWjwv50h0+0XJ2LoKjBBg0qbH9xjxUjlD9+aIRNF6GcfmCLBDp7SEjVK+QXe9BssGqpModhBdwAAAABJRU5ErkJggg=="/>
+                                    <radialGradient id="paint0_radial_1016_146398" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(9 17.25) rotate(-55.3758) scale(19.1397)">
+                                    <stop stop-color="#B13589"/>
+                                    <stop offset="0.79309" stop-color="#C62F94"/>
+                                    <stop offset="1" stop-color="#8A3AC8"/>
+                                    </radialGradient>
+                                    <radialGradient id="paint1_radial_1016_146398" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8.25 23.25) rotate(-65.1363) scale(16.9457)">
+                                    <stop stop-color="#E0E8B7"/>
+                                    <stop offset="0.444662" stop-color="#FB8A2E"/>
+                                    <stop offset="0.71474" stop-color="#E2425C"/>
+                                    <stop offset="1" stop-color="#E2425C" stop-opacity="0"/>
+                                    </radialGradient>
+                                    <radialGradient id="paint2_radial_1016_146398" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.375001 2.25) rotate(-8.1301) scale(29.1682 6.23877)">
+                                    <stop offset="0.156701" stop-color="#406ADC"/>
+                                    <stop offset="0.467799" stop-color="#6A45BE"/>
+                                    <stop offset="1" stop-color="#6A45BE" stop-opacity="0"/>
+                                    </radialGradient>
                                     </defs>
-                                </svg>                                    
+                                </svg>    
+
                             </a>
+
                         </li>
+
                         <li>
+
                             <a href="#">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <rect width="24" height="24" fill="url(#pattern0)"/>
-                                    <defs>
-                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                    <use xlink:href="#image0_108_59" transform="scale(0.0416667)"/>
-                                    </pattern>
-                                    <image id="image0_108_59" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAB8ElEQVR4nJ3VT2jOcQDH8ee5uEzEYk1phx2EyIFws520ZWuTxWGhEfJvMhQHUYSarI1NXNSEWBPZspuDOFgs8m8HBzkglmnioLy+y2/9tj3Pb8/2rtfv8Fw+9X2+v37pVCq1ixriTaOVdqbafjrCQBln2Ee8Oh5xlcn2kEZ60h6ho+RxjHjvKaefXLtJJ7dIRQOhkVWiCullHrkUjrWPNoaLD4R+M5M/RG2kkk0kdYohTjPS2IGVNLGKeK300UamGijgEKMaOxA6TD5HiPea9bwhXrgMq9nGuDINhLpoppuoubykgKgqaqkmY9kGQkPM4RdRG/6rYU0qlTpOCVlLk63ltLKCeC0MEt6fZSSWNBA6SCENRM3iHaW8IrGJBkL3uMJ9ombTTz6J5TIQ+sF8BomqopZqspbrQDjrHor5SdQFPtBExnIdeEsHedQT7zlbecG40kzUEw7wlE6ucZeoGXxkJuNKk9QDLtJF1HeKGSCqgjoqGVXSQDvdXCfeEsJvS4nXyCfOM1K2gWbCXW8hU3tYwF7iPWMHvQyXaeAEfzlJUrcJH5U7ROXxmekMlyZePUWEPzWXvrCYr0SVsZtyRg1spoQtqdxbSAeLiHeWb5xLe4TWsZ0KJttOSgm3Ld4l6sNAEWu5zFR7TDj3AeLd+AeQQmLha5zrsQAAAABJRU5ErkJggg=="/>
-                                    </defs>
-                                </svg>                                                                                           
+
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.5" y="1.5" width="21" height="21" rx="10.5" fill="#1275B1"/>
+                                    <path d="M9.46392 7.26911C9.46392 7.97002 8.85639 8.53822 8.10696 8.53822C7.35753 8.53822 6.75 7.97002 6.75 7.26911C6.75 6.5682 7.35753 6 8.10696 6C8.85639 6 9.46392 6.5682 9.46392 7.26911Z" fill="white"/>
+                                    <path d="M6.93557 9.47107H9.25515V16.5H6.93557V9.47107Z" fill="white"/>
+                                    <path d="M12.9897 9.47107H10.6701V16.5H12.9897C12.9897 16.5 12.9897 14.2872 12.9897 12.9036C12.9897 12.0732 13.2732 11.2392 14.4046 11.2392C15.6833 11.2392 15.6756 12.3259 15.6696 13.1678C15.6618 14.2683 15.6804 15.3914 15.6804 16.5H18V12.7903C17.9804 10.4215 17.3631 9.33006 15.3325 9.33006C14.1265 9.33006 13.379 9.87754 12.9897 10.3729V9.47107Z" fill="white"/>
+                                </svg>                                       
+
                             </a>
+
                         </li>
+
                     </ul>
+
                 </div>
+
             </div>
-        </section>
-    </div>
+
+        </div>
+
+    </section>
 
     <footer>
-        <div class="wrapper">
-            <div class="footer-header">
+
+        <div class="footer">
+
+            <div class="footerHeader">
+
                 <a href="#" class="logo">spark</a>
-                <nav class="footer-nav">
+
+                <a href="#" class="email">hello@spark.com</a>
+
+            </div>
+
+            <div class="footerContent">
+
+                <div class="secondaryNav">
+
                     <ul>
-                        <li><a href="#" class="active">home</a></li>
-                        <li><a href="#" class="active">features</a></li>
-                        <li><a href="#" class="active">pricing</a></li>
-                    </ul> 
-                </nav>
+
+                        <li><a href="#">Terms of Service</a></li>
+
+                        <li><a href="#">Privacy Policy</a></li>
+
+                        <li>© 2024 spark. All rights reserved.</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="ctaBtnFooter">
+
+                    <a href="#"><img src="assets/appleStore.svg" alt="Apple Store"></a>
+
+                </div>
+
             </div>
-            <div class="cta-btns">
-                <a href="#" class="appstore"><img src="assets/appleStore.svg" alt="Apple Store"></a>
-            </div>
-            <div class="secondary-nav">
-                <ul>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
+
         </div>
+
     </footer>
+
+    <script>
+
+        const navLinks = document.querySelectorAll("nav a"); 
+
+        navLinks.forEach (link => {
+
+            link.addEventListener ("click", () => {
+
+                navLinks.forEach(otherLink => otherLink.classList.remove("active")); 
+
+                localStorage.setItem("activeLink", link.id);
+                
+                link.classList.add("active");
+
+            });
+
+        });
+
+        const storedLinkId = localStorage.getItem("activeLink");
+
+        if (storedLinkId) {
+
+            const activeLink = document.getElementById(storedLinkId);
+
+            if (activeLink) {
+
+                activeLink.classList.add("activeLink");
+
+            }
+
+        }
+
+    </script>
 
 </body>
 </html>

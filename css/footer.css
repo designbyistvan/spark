@@ -1,0 +1,39 @@
+footer {
+    background: rgb(255, 247, 251);
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footerHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.secondaryNav ul {
+    list-style: none;
+}
+
+.secondaryNav ul li {
+    color: #262729be;
+}
+
+.secondaryNav ul li a {
+    color: #262729;
+}
+
+.email {
+    color: #262729;
+    text-decoration: none;
+}
