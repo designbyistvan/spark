@@ -13,7 +13,8 @@
 }
 
 .faqContent {
-    width: 600px;
+    width: 100%;
+    margin: auto;
     margin-bottom: 32px;
     cursor: pointer;
     text-decoration: none;
