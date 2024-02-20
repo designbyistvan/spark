@@ -18,6 +18,16 @@ Features
 
     Testimonial: The landing page includes testimonial from a satisfied user to build trust and credibility, encouraging visitors to try out the product.
 
-Contact Us
+Landing Page Update
+
+    Floating "Scroll to Top" Button Implementation:
+
+        Say goodbye to endless scrolling! I've introduced a convenient floating "scroll to top" button, ensuring effortless navigation back to the page's beginning with just a single click. Now, you can seamlessly explore our content without worrying about losing your place.
+
+    Dynamic FAQ Section:
+
+        Ever had burning questions about Spark? I've got you covered! My brand-new FAQ section is now live, ready to address common inquiries and provide valuable insights to our users.
+
+Contact Me
 
 If you have any questions, feedback, or inquiries about the Spark landing page or the Spark application itself, please don't hesitate to contact me at designbyistvan@gmail.com. I value your input and look forward to hearing from you!

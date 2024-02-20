@@ -13,9 +13,18 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/faqSection.css">
 
 </head>
 <body>
+
+    <div id="progress">
+        <span id="progressValue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.41 15.41L12 10.83L16.59 15.41L18 14L12 8L6 14L7.41 15.41Z" fill="black"/>
+            </svg>                
+        </span>
+    </div>
     
     <header id="navbar">
 
@@ -211,6 +220,45 @@
         </div>
 
     </section>
+    
+    <section id="faq">
+        <div class="faq">
+            <h2 class="faqTitle">FAQs</h2>
+            <div class="faqContent">
+                <div class="question">
+                    <h3>Can I use Spark for personal and professional tasks?</h3>
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.83847 9.50854L12.4285 14.0985L17.0185 9.50854L18.4285 10.9285L12.4285 16.9285L6.42847 10.9285L7.83847 9.50854Z" fill="black"/>
+                    </svg>                        
+                </div>
+                <div class="answer">
+                    <p>Absolutely! Spark is suitable for both personal and professional use. Whether you're managing your personal to-do list or coordinating tasks with your team at work, Spark offers the flexibility and features to meet your needs.</p>
+                </div>
+            </div>
+            <div class="faqContent">
+                <div class="question">
+                    <h3>Can I cancel my subscription at any time?</h3>
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.83847 9.50854L12.4285 14.0985L17.0185 9.50854L18.4285 10.9285L12.4285 16.9285L6.42847 10.9285L7.83847 9.50854Z" fill="black"/>
+                    </svg>                        
+                </div>
+                <div class="answer">
+                    <p>Yes, you can cancel your Spark subscription at any time. There are no long-term commitments, and you can easily manage your subscription through your account settings.</p>
+                </div>
+            </div>
+            <div class="faqContent">
+                <div class="question">
+                    <h3>How secure is my data on Spark?</h3>
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.83847 9.50854L12.4285 14.0985L17.0185 9.50854L18.4285 10.9285L12.4285 16.9285L6.42847 10.9285L7.83847 9.50854Z" fill="black"/>
+                    </svg>                        
+                </div>
+                <div class="answer">
+                    <p>Yes, we offer customer support to assist you with any questions or issues you may encounter while using Spark. You can reach out to our support team via email at support@spark.com for prompt assistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
 
@@ -285,6 +333,10 @@
         }
 
     </script>
+
+    <script src="../spark/scripts/floatingScroll.js"></script>
+
+    <script src="../spark/scripts/faq.js"></script>
 
 </body>
 </html>
